@@ -67,9 +67,6 @@ Three papers, more approachable and relevant to current research than those pres
 
    https://arxiv.org/pdf/1412.6980.pdf
 
-   > Introduces the Adam Optimizer a good out-of-the-box optimizer which requires very little tuning of  hyper-parameters. It is also computationally efficient, requiring only first-order gradients and little memory (RAM) requirements. Even though the paper was published 4 years ago, it remains the most popular optimizer. 
-
-​	
-
+   > Introduces the Adam Optimizer a good out-of-the-box optimizer which requires very little tuning of  hyper-parameters. It is also computationally efficient, requiring only first-order gradients and little memory (RAM) requirements. Even though the paper was published 4 years ago, it remains the most popular optimizer.
 
 
