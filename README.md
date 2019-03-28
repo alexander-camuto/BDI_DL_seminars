@@ -6,6 +6,8 @@ We'll be posting links to required readings for each week and uploading course s
 
 ## Getting Started with Code
 
+- Clone this repo to your machine
+
 - Install conda (https://conda.io/en/latest/), then run the following command from the root directory of the repository: 
 
 `conda create -n bdi_dl python=3.6`
