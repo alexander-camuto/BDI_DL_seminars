@@ -6,6 +6,8 @@ We'll be posting links to required readings for each week and uploading course s
 
 ## Getting Started with Code
 
+- Clone this repo to your machine
+
 - Install conda (https://conda.io/en/latest/), then run the following command from the root directory of the repository: 
 
 `conda create -n bdi_dl python=3.6`
@@ -65,9 +67,6 @@ Three papers, more approachable and relevant to current research than those pres
 
    https://arxiv.org/pdf/1412.6980.pdf
 
-   > Introduces the Adam Optimizer a good out-of-the-box optimizer which requires very little tuning of  hyper-parameters. It is also computationally efficient, requiring only first-order gradients and little memory (RAM) requirements. Even though the paper was published 4 years ago, it remains the most popular optimizer. 
-
-​	
-
+   > Introduces the Adam Optimizer a good out-of-the-box optimizer which requires very little tuning of  hyper-parameters. It is also computationally efficient, requiring only first-order gradients and little memory (RAM) requirements. Even though the paper was published 4 years ago, it remains the most popular optimizer.
 
 
