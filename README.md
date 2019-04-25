@@ -69,4 +69,26 @@ Three papers, more approachable and relevant to current research than those pres
 
    > Introduces the Adam Optimizer a good out-of-the-box optimizer which requires very little tuning of  hyper-parameters. It is also computationally efficient, requiring only first-order gradients and little memory (RAM) requirements. Even though the paper was published 4 years ago, it remains the most popular optimizer.
 
+### Week 3
+
+1. **ImageNet Classification with Deep Convolutional Neural Networks; Krizhevsk, Sutskever and Hinton; 2012**
+
+   https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
+
+   > This is another foundational paper in the recent renaissance of neural networks. The convolutional neural network proposed here, AlexNet, demonstrated a step-change in image classification performance compared to previous approaches.
+
+2. **Dermatologist-level classification of skin cancer with deep neural networks; Esteva et al; 2017**
+
+   https://www.nature.com/articles/nature21056
+
+   > A recent application paper, showing that convolutional neural networks can reach human-level performance at classifying skin cancers
+
+3. **Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps; Simonyan, Vedaldi and Zisserman; 2014**
+
+   https://arxiv.org/abs/1312.6034
+
+   > How can we understand how neural networks come to their decision? This paper propagates gradients into the input in various ways to try to get a handle on what parts of an image are most important to the prediction.
+
+
+
 
