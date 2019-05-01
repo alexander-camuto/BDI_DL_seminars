@@ -92,6 +92,6 @@ Three papers, more approachable and relevant to current research than those pres
 ### Week 4 - Recurrent Neural Networks
 
 1. **A Critical Review of Recurrent Neural Networks for Sequence Learning; Lipton et al.; 2015**
-    A brief and approachable review of recurrent neural networks. Sections 3 and 4 are probably the most important
     https://arxiv.org/abs/1506.00019
 
+    > A brief and approachable review of recurrent neural networks. Sections 3 and 4 are probably the most important.
