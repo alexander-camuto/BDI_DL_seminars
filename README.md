@@ -89,7 +89,7 @@ Three papers, more approachable and relevant to current research than those pres
 
    > How can we understand how neural networks come to their decision? This paper propagates gradients into the input in various ways to try to get a handle on what parts of an image are most important to the prediction.
 
-### Week 3 - Recurrent Neural Networks
+### Week 4 - Recurrent Neural Networks
 
 1. **A Critical Review of Recurrent Neural Networks for Sequence Learning; Lipton et al.; 2015**
     A brief and approachable review of recurrent neural networks. Sections 3 and 4 are probably the most important
