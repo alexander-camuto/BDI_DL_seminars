@@ -26,7 +26,7 @@ For an introduction to Keras, please refer to <https://keras.io/getting-started/
 
 ## Readings
 
-### Week 1
+### Week 1 - Introduction to Machine Learning
 
 Three papers, first two quite technical that can be skimmed just to get the headline ideas, and then one more approachable paper that is the foundation for deep neural networks. We really just want you to get the take-aways for the first two, and if the last doesn't make much sense, hopefully it will after the first session.
 
@@ -47,7 +47,7 @@ Three papers, first two quite technical that can be skimmed just to get the head
 
     
 
-### Week 2 
+### Week 2 - Multilayer Perceptrons, Backpropagation and Optimisation
 
 Three papers, more approachable and relevant to current research than those presented last week. We recommend you skim through the entirety of each paper. 
 
@@ -69,7 +69,7 @@ Three papers, more approachable and relevant to current research than those pres
 
    > Introduces the Adam Optimizer a good out-of-the-box optimizer which requires very little tuning of  hyper-parameters. It is also computationally efficient, requiring only first-order gradients and little memory (RAM) requirements. Even though the paper was published 4 years ago, it remains the most popular optimizer.
 
-### Week 3
+### Week 3 - Convolutional Neural Networks
 
 1. **ImageNet Classification with Deep Convolutional Neural Networks; Krizhevsk, Sutskever and Hinton; 2012**
 
@@ -89,6 +89,9 @@ Three papers, more approachable and relevant to current research than those pres
 
    > How can we understand how neural networks come to their decision? This paper propagates gradients into the input in various ways to try to get a handle on what parts of an image are most important to the prediction.
 
+### Week 3 - Recurrent Neural Networks
 
-
+1. **A Critical Review of Recurrent Neural Networks for Sequence Learning; Lipton et al.; 2015**
+    A brief and approachable review of recurrent neural networks. Sections 3 and 4 are probably the most important
+    https://arxiv.org/abs/1506.00019
 
