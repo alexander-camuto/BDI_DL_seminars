@@ -95,3 +95,41 @@ Three papers, more approachable and relevant to current research than those pres
     https://arxiv.org/abs/1506.00019
 
     > A brief and approachable review of recurrent neural networks. Sections 3 and 4 are probably the most important.
+    
+### Week 5 - Autoencoders and Seq-2-Seq
+
+1. **Sequence to Sequence Learning with Neural Networks; Sutskever, Vinyals and Le.; 2014**
+    https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf
+
+    > An early and highly influencial paper using recurrent neural networks for machine translation
+
+2. **Neural Machine Translation by Jointly Learning to Align and Translate; Bahdanau, Cho and Bengio; 2015**
+    https://arxiv.org/pdf/1409.0473.pdf
+
+   > In this paper we relax the assumption that the word orders between languages match closely, and instead learn to align.
+   
+### Week 6 - Variational Autoencoders and Generative Adversarial Networks
+
+1. **Auto-Encoding Variational Bayes; Kingma and Welling; 2013**
+
+    https://arxiv.org/pdf/1312.6114
+    
+   > One of the two contemporaneous papers proposing VAEs (the other being Rezende et al. 2014). Shows how to scale up variational inference to large models and large datasets.
+
+2. **BIVA: A Very Deep Hierarchy of Latent Variables for Generative Modeling; Maaloe et al. 2019**
+
+   https://arxiv.org/pdf/1902.02102.pdf
+
+   > The current state of the art for image generation for VAE-like models. Quite Byzantine in structure, but the results are impressive - normally VAE draws/reconstructions are quite blurry but this model's are sharp.
+
+3. **Generative Adversarial Nets; Goodfellow et al.; 2014**
+
+   https://arxiv.org/abs/1406.2661
+
+   > The foundational paper proposing GANs. Probably the most important new model structure in deep learning. Despite ongoing challenges in training them reliably, GAN-like models are state of the art for numerous data-generation tasks.
+
+4. **Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks; Zhu et al.; 2018**
+
+   https://arxiv.org/pdf/1703.10593
+
+   > Introduces 'CycleGan', which gives impressive 'style transfer' performance. Key insight is that we want the composition of both 'translation' networks to give us back our input.
