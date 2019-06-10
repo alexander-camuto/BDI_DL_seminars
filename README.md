@@ -8,7 +8,7 @@ We'll be posting links to required readings for each week and uploading course s
 
 - Clone this repo to your machine
 
-- Install conda (https://conda.io/en/latest/), then run the following command from the root directory of the repository: 
+- Install conda (https://conda.io/en/latest/), then run the following command from the root directory of the repository:
 
 `conda create -n bdi_dl python=3.6`
 
@@ -16,13 +16,13 @@ We'll be posting links to required readings for each week and uploading course s
 
 `conda activate bdi_dl`
 
-- Install the necessary packages: 
+- Install the necessary packages:
 
 `pip install -r requirements.txt`
 
-- Note that the requirements file may expand from week to week so if you find yourself lacking packages to run a particular script, just re-run the prior command. 
+- Note that the requirements file may expand from week to week so if you find yourself lacking packages to run a particular script, just re-run the prior command.
 
-For an introduction to Keras, please refer to <https://keras.io/getting-started/sequential-model-guide/>. 
+For an introduction to Keras, please refer to <https://keras.io/getting-started/sequential-model-guide/>.
 
 ## Readings
 
@@ -45,23 +45,23 @@ Three papers, first two quite technical that can be skimmed just to get the head
 
     > Much more recent that the other two. This is the paper that gives us the tool to build very large networks, the RELU activation function. Most of the methods for training models referred to in this paper are now hideously out of date - the field has moved on a lot since 2011. This activation function means that gradient signal can go further through the model.
 
-    
+
 
 ### Week 2 - Multilayer Perceptrons, Backpropagation and Optimisation
 
-Three papers, more approachable and relevant to current research than those presented last week. We recommend you skim through the entirety of each paper. 
+Three papers, more approachable and relevant to current research than those presented last week. We recommend you skim through the entirety of each paper.
 
 1. **Understanding Deep Learning Requires Re-Thinking Generalization, Zhang et al. (2017)**
 
    <https://arxiv.org/pdf/1611.03530.pdf>
 
-   > Large enough networks, where the number of parameters exceeds the number of training data-points, can effectively memorize entire "random" datasets. The core concept being described is that of **overfitting**, where a network fits to random noise present in the training data increasing it's "generalization" error when evaluated on a test dataset. 
+   > Large enough networks, where the number of parameters exceeds the number of training data-points, can effectively memorize entire "random" datasets. The core concept being described is that of **overfitting**, where a network fits to random noise present in the training data increasing it's "generalization" error when evaluated on a test dataset.
 
 2. **Visualizing the Loss Landscape of Neural Nets, Li et al. (2017)**
 
    <http://papers.nips.cc/paper/7875-visualizing-the-loss-landscape-of-neural-nets.pdf>
 
-   > This paper clearly illustrates how different neural network architectures can generate smoother loss 'landscapes' to produce models that generalize better and are less likely to be stuck in local minima. 
+   > This paper clearly illustrates how different neural network architectures can generate smoother loss 'landscapes' to produce models that generalize better and are less likely to be stuck in local minima.
 
 3. **Adam: A Method for Stochastic Optimization, Kingma, Lei Ba (2015)**
 
@@ -95,7 +95,7 @@ Three papers, more approachable and relevant to current research than those pres
     https://arxiv.org/abs/1506.00019
 
     > A brief and approachable review of recurrent neural networks. Sections 3 and 4 are probably the most important.
-    
+
 ### Week 5 - Autoencoders and Seq-2-Seq
 
 1. **Sequence to Sequence Learning with Neural Networks; Sutskever, Vinyals and Le.; 2014**
@@ -107,13 +107,13 @@ Three papers, more approachable and relevant to current research than those pres
     https://arxiv.org/pdf/1409.0473.pdf
 
    > In this paper we relax the assumption that the word orders between languages match closely, and instead learn to align.
-   
+
 ### Week 6 - Variational Autoencoders and Generative Adversarial Networks
 
 1. **Auto-Encoding Variational Bayes; Kingma and Welling; 2013**
 
     https://arxiv.org/pdf/1312.6114
-    
+
    > One of the two contemporaneous papers proposing VAEs (the other being Rezende et al. 2014). Shows how to scale up variational inference to large models and large datasets.
 
 2. **BIVA: A Very Deep Hierarchy of Latent Variables for Generative Modeling; Maaloe et al. 2019**
@@ -133,3 +133,23 @@ Three papers, more approachable and relevant to current research than those pres
    https://arxiv.org/pdf/1703.10593
 
    > Introduces 'CycleGan', which gives impressive 'style transfer' performance. Key insight is that we want the composition of both 'translation' networks to give us back our input.
+
+### Week 7 - Variational Autoencoders and Generative Adversarial Networks
+
+1. **Human-level control through deep reinforcement learning; Mnih et al; 2015**
+
+  https://www.nature.com/articles/nature14236
+
+  > This paper sets the foundation for much of deep reinforcement learning by introducing Deep Q Networks (DQN). Here, neural networks are used to map state action pairs to rewards, thereby estimating the ‘Q’ function of classical reinforcement learning.
+
+2. **Rainbow: Combining Improvements in Deep Reinforcement Learning; Hessel et al; 2017**
+
+  https://arxiv.org/pdf/1710.02298.pdf
+
+  > This paper fruitfully combines many of the recent modifications to the original DQN to achieve state of the art performance.
+
+3. **Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics; Kendall et al; 2018**
+
+  https://arxiv.org/pdf/1705.07115.pdf
+
+  > The authors grapple with the complicated task of training neural networks to minimise multiple regression and classification objectives. They do so by weighting multiple loss functions by considering the homoscedastic uncertainty of each task. 
