@@ -134,7 +134,7 @@ Three papers, more approachable and relevant to current research than those pres
 
    > Introduces 'CycleGan', which gives impressive 'style transfer' performance. Key insight is that we want the composition of both 'translation' networks to give us back our input.
 
-### Week 7 - Variational Autoencoders and Generative Adversarial Networks
+### Week 7 - Deep Reinforcement Learning and Frontiers in Deep Learning
 
 1. **Human-level control through deep reinforcement learning; Mnih et al; 2015**
 
