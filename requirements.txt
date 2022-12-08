@@ -1,7 +1,7 @@
 absl-py==0.7.1
 astor==0.7.1
 astroid==2.2.5
-certifi==2019.3.9
+certifi==2022.12.7
 cycler==0.10.0
 gast==0.2.2
 grpcio==1.19.0
